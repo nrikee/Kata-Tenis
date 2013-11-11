@@ -2,10 +2,10 @@ public class Jugador{
     String nombreJugador;
     int puntuacion;
      
-    final int GANA = 4;
-    final int DEUCE = 5;
-    final int VENTAJA = 6;
-    final int[] marcador = {0,15,30,40,-1,-2,-3,-1};
+    private final int GANA = 4;
+    private final int DEUCE = 5;
+    private final int VENTAJA = 6;
+    private final int[] marcador = {0,15,30,40,-1,-2,-3,-1};
      
     /** Constructor */
     public Jugador(){
